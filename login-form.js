@@ -27,9 +27,13 @@ let input3 = document.getElementById("password");
 
 function press() {
   input1.style.border = "2px solid blue";
+  input1.style.transition = "border 0.5s ease";
   input2.style.border = "2px solid blue";
+  input2.style.transition = "border 0.5s ease";
   input3.style.border = "2px solid blue";
+  input3.style.transition = "border 0.5s ease";
   btn.style.backgroundColor = "green";
+  btn.style.transition = "background-color 0.5s ease";
 }
 
 // pStyle.style.textAlign = "center";
@@ -84,3 +88,4 @@ function press() {
 // btnH.addEventListener("mouseleave", () => {
 //    btnH.style.background = "#4CAF50";
 // });
+
