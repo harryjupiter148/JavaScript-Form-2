@@ -29,16 +29,16 @@
   margin-bottom: 20px;
 }
 
-#email {
-  width: 80%;
+#username {
+  width: 100%;
   padding: 10px 0px 10px 10px;
   margin: 2px 0px 8px 0px;
   border: 2px solid red;
   border-radius: 5px;
 }
 
-#username {
-  width: 80%;
+#email {
+  width: 100%;
   padding: 10px 0px 10px 10px;
   margin: 2px 0px 8px 0px;
   border: 2px solid red;
@@ -46,7 +46,7 @@
 }
 
 #password {
-  width: 80%;
+  width: 100%;
   padding: 10px 0px 10px 10px;
   margin: 2px 0px 8px 0px;
   border: 2px solid red;
@@ -64,5 +64,6 @@
   cursor: pointer;
   transition: background 0.2s ease;
 }
+
 
 
