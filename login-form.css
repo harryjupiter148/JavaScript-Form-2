@@ -4,14 +4,17 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #f4f4f4;
+  background: url(Images/wallpaper2.jpg);
+  background-size: cover;
+  backdrop-filter: blur(8px);
 }
 
 #login-box {
-  background: #fff;
+  background: url(Images/wallpaper5.jpg);
+  background-size: cover;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 50px rgba(104, 104, 104, 0.9);
   width: 300px;
 }
 
@@ -55,3 +58,4 @@
   cursor: pointer;
   transition: background 0.2s ease;
 }
+
